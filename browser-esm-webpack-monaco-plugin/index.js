@@ -1,3 +1,4 @@
+import './set-assets-path';
 import * as monaco from 'monaco-editor/esm/vs/editor/editor.api';
 
 (function () {

@@ -4,7 +4,9 @@
 	"description": "Samples for using the Monaco Editor",
 	"main": "index.js",
 	"scripts": {
-		"simpleserver": "yaserver --root ./ --port 8888"
+		"simpleserver": "yaserver --root ./ --port 8888",
+		"serve-assets": "yaserver --root ./browser-esm-webpack-monaco-plugin/dist --port 3333",
+		"serve-bug-sample": "npm run simpleserver & npm run serve-assets"
 	},
 	"author": "Microsoft Corporation",
 	"license": "MIT",
